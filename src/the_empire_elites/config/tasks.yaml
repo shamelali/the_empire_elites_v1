@@ -1,4 +1,18 @@
 ---
+hardware_configuration_optimization:
+  description: Analyze and optimize hardware configurations for the {project_type}
+    project. Evaluate CPU/GPU requirements, memory needs, storage architecture,
+    network specifications, and cloud resource allocation. Provide detailed
+    recommendations for optimal performance, cost-efficiency, and scalability.
+    Consider development, testing, staging, and production environments.
+  expected_output: 'A comprehensive hardware optimization report including: 1)
+    Hardware requirements analysis for each environment (dev/test/staging/prod),
+    2) CPU/GPU specifications with benchmarks and cost analysis, 3) Memory
+    and storage architecture recommendations, 4) Network configuration and
+    bandwidth requirements, 5) Cloud instance type recommendations with pricing,
+    6) Scalability projections and future hardware needs'
+  agent: hardware_optimization_specialist
+
 gather_and_analyze_project_requirements:
   description: Conduct comprehensive requirements analysis for the {project_type}
     project. Interview stakeholders, gather functional and non-functional requirements,
@@ -41,6 +55,7 @@ design_system_architecture:
     architecture and compliance considerations'
   agent: software_architect
   context:
+  - hardware_configuration_optimization
   - monitor_development_team_quality_timeline
 implement_core_application_features:
   description: Implement the core features of the {project_type} application following
@@ -105,6 +120,7 @@ setup_production_deployment_pipeline:
     procedures, 6) Deployment runbooks and operational documentation'
   agent: devops_engineer
   context:
+  - hardware_configuration_optimization
   - execute_comprehensive_testing_strategy
 strategic_sales_lead_generation:
   description: Develop and execute a comprehensive sales strategy for the {project_type}

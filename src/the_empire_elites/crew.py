@@ -43,7 +43,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -79,7 +79,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -114,7 +114,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -152,7 +152,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -189,7 +189,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -226,7 +226,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -253,7 +253,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -281,7 +281,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -310,7 +310,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -340,7 +340,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -369,7 +369,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -397,7 +397,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -426,7 +426,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -455,7 +455,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -484,7 +484,36 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
+                
+                
+            ),
+            
+        )
+        
+    
+    @agent
+    def hardware_optimization_specialist(self) -> Agent:
+        
+        
+        return Agent(
+            config=self.agents_config["hardware_optimization_specialist"],
+            
+            
+            
+            tools=[				FileReadTool(),
+				ScrapeWebsiteTool()],
+            reasoning=False,
+            max_reasoning_attempts=None,
+            inject_date=True,
+            allow_delegation=False,
+            max_iter=25,
+            max_rpm=None,
+            
+            
+            max_execution_time=None,
+            llm=LLM(
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -511,7 +540,7 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="openai/gpt-4o-mini",
+                model="ollama/qwen2.5-coder:7b",
                 
                 
             ),
@@ -520,6 +549,15 @@ class TheEmpireElitesCrew:
         
     
 
+    
+    @task
+    def hardware_configuration_optimization(self) -> Task:
+        return Task(
+            config=self.tasks_config["hardware_configuration_optimization"],
+            markdown=False,
+            
+            
+        )
     
     @task
     def gather_and_analyze_project_requirements(self) -> Task:
@@ -694,7 +732,7 @@ class TheEmpireElitesCrew:
             process=Process.sequential,
             verbose=True,
 
-            chat_llm=LLM(model="openai/gpt-4o-mini"),
+            chat_llm=LLM(model="ollama/qwen2.5-coder:7b"),
         )
 
 
