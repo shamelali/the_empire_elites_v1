@@ -12,7 +12,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'project_type': 'sample_value'
+        'project_type': 'full-stack application'
     }
     TheEmpireElitesCrew().crew().kickoff(inputs=inputs)
 
@@ -22,7 +22,7 @@ def train():
     Train the crew for a given number of iterations.
     """
     inputs = {
-        'project_type': 'sample_value'
+        'project_type': 'full-stack application'
     }
     try:
         TheEmpireElitesCrew().crew().train(n_iterations=int(sys.argv[1]), filename=sys.argv[2], inputs=inputs)
@@ -45,7 +45,7 @@ def test():
     Test the crew execution and returns the results.
     """
     inputs = {
-        'project_type': 'sample_value'
+        'project_type': 'full-stack application'
     }
     try:
         TheEmpireElitesCrew().crew().test(n_iterations=int(sys.argv[1]), openai_model_name=sys.argv[2], inputs=inputs)
