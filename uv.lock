@@ -3342,7 +3342,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "crewai", extras = ["file-processing", "litellm", "tools"], specifier = "==1.13.0" },
+    { name = "crewai", extras = ["file-processing", "litellm", "tools"] },
     { name = "pydantic" },
 ]
 

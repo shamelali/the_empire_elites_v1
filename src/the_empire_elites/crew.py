@@ -43,7 +43,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -79,7 +80,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -114,7 +116,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -152,7 +155,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -189,7 +193,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -226,7 +231,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -253,7 +259,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -281,7 +288,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -310,7 +318,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -340,7 +349,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -369,7 +379,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -397,7 +408,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -426,7 +438,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -455,7 +468,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -484,7 +498,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -513,7 +528,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -540,7 +556,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/qwen2.5-coder:7b",
+                model="ollama/llama3.2:1b",
+            base_url="http://localhost:11434",
                 
                 
             ),
@@ -732,7 +749,7 @@ class TheEmpireElitesCrew:
             process=Process.sequential,
             verbose=True,
 
-            chat_llm=LLM(model="ollama/qwen2.5-coder:7b"),
+            chat_llm=LLM(model="ollama/llama3.2:1b"),
         )
 
 
