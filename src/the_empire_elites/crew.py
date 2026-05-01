@@ -43,8 +43,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -80,8 +80,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -116,8 +116,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -155,8 +155,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -193,8 +193,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -231,8 +231,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -259,8 +259,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -288,8 +288,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -318,8 +318,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -349,8 +349,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -379,8 +379,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -408,8 +408,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -438,8 +438,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -468,8 +468,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -498,8 +498,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -528,8 +528,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -556,8 +556,8 @@ class TheEmpireElitesCrew:
             
             max_execution_time=None,
             llm=LLM(
-                model="ollama/llama3.2:1b",
-            base_url="http://localhost:11434",
+                model="groq/llama-3.1-8b-instant",
+            
                 
                 
             ),
@@ -749,7 +749,7 @@ class TheEmpireElitesCrew:
             process=Process.sequential,
             verbose=True,
 
-            chat_llm=LLM(model="ollama/llama3.2:1b"),
+            chat_llm=LLM(model="groq/llama-3.1-8b-instant"),
         )
 
 

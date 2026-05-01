@@ -6,6 +6,7 @@ authors = [{ name = "Shamel Ali", email = "shamel@leish.my" }]
 requires-python = ">=3.10,<3.14"
 dependencies = [
     "crewai[file-processing,litellm,tools]",
+    "groq>=1.2.0",
     "pydantic",
 ]
 
